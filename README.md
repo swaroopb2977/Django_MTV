@@ -8,12 +8,16 @@ Models are typically defined as Python classes that inherit from the django.db.m
 Each attribute of a model class represents a field in the database table, such as CharField, IntegerField, ForeignKey, etc.
 Models define relationships between different entities through fields like ForeignKey, ManyToManyField, and OneToOneField.
 They can also include methods to perform operations or calculations on the data.
+
+
 Templates:
 
 Templates define the presentation layer of the application. They determine how the data is displayed to the users.
 Templates are typically HTML files with Django template language (DTL) syntax.
 DTL provides template tags and filters to manipulate and render the data dynamically.
 Templates can include placeholders for dynamic content that is provided by views.
+
+
 Views:
 
 Views handle the business logic of the application. They receive HTTP requests from users and return appropriate HTTP responses.
